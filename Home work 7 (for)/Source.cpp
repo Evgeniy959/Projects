@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 #define HOME_WORK_TASK_1
 #define HOME_WORK_TASK_2
@@ -12,14 +12,14 @@ void main()
 #ifdef HOME_WORK_TASK_1
 	int n; 
 	int f = 1;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 
 	for (int i = 1; i <= n; i++)
 
 	{
 		f *= i;		
 	}
-	cout << "ôàêòîðèàë ÷èñëà "<< f << "\t" << endl;
+	cout << "Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» Ñ‡Ð¸ÑÐ»Ð° "<< f << "\t" << endl;
 	cout << endl;
 	
 #endif // HOME_WORK_TASK_1
@@ -27,8 +27,8 @@ void main()
 #ifdef HOME_WORK_TASK_2
 
 	double a, s, b=1;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> a;
-	cout << "Ââåäèòå ïîêàçàòåëü ñòåïåíè: "; cin >> s;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾ÐºÐ°Ð·Ð°Ñ‚ÐµÐ»ÑŒ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸: "; cin >> s;
 	if (s < 0) 
 	{
 		a = 1 / a;
@@ -40,7 +40,7 @@ void main()
 	{
 		b *= a;		
 	}
-	cout << "ñòåïåíü: " << b << "\t";
+	cout << "ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ: " << b << "\t";
 	cout << endl;
 
 #endif // HOME_WORK_TASK_2
